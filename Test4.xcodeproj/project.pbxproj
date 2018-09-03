@@ -13,6 +13,8 @@
 		2B75780D213D0D0E00C3D472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B75780C213D0D0E00C3D472 /* Assets.xcassets */; };
 		2B757810213D0D0E00C3D472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B75780E213D0D0E00C3D472 /* LaunchScreen.storyboard */; };
 		2B75781B213D0D0E00C3D472 /* Test4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B75781A213D0D0E00C3D472 /* Test4Tests.swift */; };
+		2B757829213D215B00C3D472 /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B757828213D215B00C3D472 /* ValidationService.swift */; };
+		2B75782A213D215B00C3D472 /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B757828213D215B00C3D472 /* ValidationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		2B757816213D0D0E00C3D472 /* Test4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B75781A213D0D0E00C3D472 /* Test4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test4Tests.swift; sourceTree = "<group>"; };
 		2B75781C213D0D0E00C3D472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B757828213D215B00C3D472 /* ValidationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		2B757804213D0D0C00C3D472 /* Test4 */ = {
 			isa = PBXGroup;
 			children = (
+				2B757828213D215B00C3D472 /* ValidationService.swift */,
 				2B757805213D0D0C00C3D472 /* AppDelegate.swift */,
 				2B757807213D0D0C00C3D472 /* ViewController.swift */,
 				2B757809213D0D0C00C3D472 /* Main.storyboard */,
@@ -199,6 +203,7 @@
 			files = (
 				2B757808213D0D0C00C3D472 /* ViewController.swift in Sources */,
 				2B757806213D0D0C00C3D472 /* AppDelegate.swift in Sources */,
+				2B757829213D215B00C3D472 /* ValidationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B75782A213D215B00C3D472 /* ValidationService.swift in Sources */,
 				2B75781B213D0D0E00C3D472 /* Test4Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
